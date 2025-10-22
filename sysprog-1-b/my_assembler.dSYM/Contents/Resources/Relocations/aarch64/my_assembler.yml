@@ -1,0 +1,29 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jang-inho/Desktop/sysprog-1/my_assembler'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002708, symSize: 0xAC }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _inst_table, symBinAddr: 0x100011C50, symSize: 0x0 }
+  - { offsetInCU: 0xD2, offset: 0xD2, size: 0x8, addend: 0x0, symName: _inst_index, symBinAddr: 0x100011C48, symSize: 0x0 }
+  - { offsetInCU: 0xE7, offset: 0xE7, size: 0x8, addend: 0x0, symName: _input_data, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x10E, offset: 0x10E, size: 0x8, addend: 0x0, symName: _line_num, symObjAddr: 0x3EF8, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x123, offset: 0x123, size: 0x8, addend: 0x0, symName: _label_num, symBinAddr: 0x100012450, symSize: 0x0 }
+  - { offsetInCU: 0x138, offset: 0x138, size: 0x8, addend: 0x0, symName: _token_table, symBinAddr: 0x100039558, symSize: 0x0 }
+  - { offsetInCU: 0x1BB, offset: 0x1BB, size: 0x8, addend: 0x0, symName: _token_line, symObjAddr: 0x3EFC, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x1D0, offset: 0x1D0, size: 0x8, addend: 0x0, symName: _sym_table, symBinAddr: 0x100025CD4, symSize: 0x0 }
+  - { offsetInCU: 0x21E, offset: 0x21E, size: 0x8, addend: 0x0, symName: _literal_table, symBinAddr: 0x100012454, symSize: 0x0 }
+  - { offsetInCU: 0x228, offset: 0x228, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002708, symSize: 0xAC }
+  - { offsetInCU: 0x25E, offset: 0x25E, size: 0x8, addend: 0x0, symName: _init_my_assembler, symObjAddr: 0xAC, symBinAddr: 0x1000027B4, symSize: 0x80 }
+  - { offsetInCU: 0x286, offset: 0x286, size: 0x8, addend: 0x0, symName: _assem_pass1, symObjAddr: 0x12C, symBinAddr: 0x100002834, symSize: 0x98 }
+  - { offsetInCU: 0x2BE, offset: 0x2BE, size: 0x8, addend: 0x0, symName: _assem_pass2, symObjAddr: 0x1C4, symBinAddr: 0x1000028CC, symSize: 0x10 }
+  - { offsetInCU: 0x2D8, offset: 0x2D8, size: 0x8, addend: 0x0, symName: _init_inst_file, symObjAddr: 0x1D4, symBinAddr: 0x1000028DC, symSize: 0x218 }
+  - { offsetInCU: 0x392, offset: 0x392, size: 0x8, addend: 0x0, symName: _init_input_file, symObjAddr: 0x3EC, symBinAddr: 0x100002AF4, symSize: 0x1D0 }
+  - { offsetInCU: 0x3E5, offset: 0x3E5, size: 0x8, addend: 0x0, symName: _print_inst_table, symObjAddr: 0x5BC, symBinAddr: 0x100002CC4, symSize: 0x120 }
+  - { offsetInCU: 0x433, offset: 0x433, size: 0x8, addend: 0x0, symName: _token_parsing, symObjAddr: 0x6DC, symBinAddr: 0x100002DE4, symSize: 0x658 }
+  - { offsetInCU: 0x52D, offset: 0x52D, size: 0x8, addend: 0x0, symName: _search_opcode, symObjAddr: 0xD34, symBinAddr: 0x10000343C, symSize: 0xC4 }
+  - { offsetInCU: 0x583, offset: 0x583, size: 0x8, addend: 0x0, symName: _print_token_table, symObjAddr: 0xDF8, symBinAddr: 0x100003500, symSize: 0x24C }
+  - { offsetInCU: 0x5F1, offset: 0x5F1, size: 0x8, addend: 0x0, symName: _make_opcode_output, symObjAddr: 0x1044, symBinAddr: 0x10000374C, symSize: 0x34C }
+  - { offsetInCU: 0x69B, offset: 0x69B, size: 0x8, addend: 0x0, symName: _make_symtab_output, symObjAddr: 0x1390, symBinAddr: 0x100003A98, symSize: 0x10 }
+  - { offsetInCU: 0x6C1, offset: 0x6C1, size: 0x8, addend: 0x0, symName: _make_literaltab_output, symObjAddr: 0x13A0, symBinAddr: 0x100003AA8, symSize: 0x10 }
+  - { offsetInCU: 0x6E7, offset: 0x6E7, size: 0x8, addend: 0x0, symName: _make_objectcode_output, symObjAddr: 0x13B0, symBinAddr: 0x100003AB8, symSize: 0x10 }
+...
